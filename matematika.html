@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolaborasi Matematika - Alpha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="collaboration-page.css">
+    <link rel="stylesheet" href="matematika-page.css">
+</head>
+
+ <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="image/logo alpha.png" alt="Alpha Logo" >
+                <span>Alpha</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#beranda">Beranda</a></li>
+                <li><a href="index.html#kolaborasi">Kolaborasi</a></li>
+                <li><a href="index.html#produk">Produk</a></li>
+                <li><a href="index.html#kontak">Kontak</a></li>
+                <li><a href="index.html#tim">Tim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero math-hero">
+        <div class="container">
+            <div class="hero-content-page">
+                <h1>Kolaborasi Matematika</h1>
+                <p class="subtitle">Sistem Persamaan Linear Dua Variabel (SPLDV)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Tentang Kolaborasi Ini</h2>
+                <p>Dalam mata pelajaran Matematika, kami mengaplikasikan konsep Sistem Persamaan Linear Dua Variabel (SPLDV) dalam konteks proyek daur ulang limbah. Melalui iklan yang telah kami buat, kami menunjukkan bagaimana matematika dapat digunakan untuk menentukan harga satuan dari iklan yang kami buat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="iklan-section" id="iklan">
+        <div class="container">
+            <h2 class="iklan-title">Iklan Yang Kami Kerjakan</h2>
+            <div class="iklan-grid">
+                <a href="#materi1" class="iklan-card">
+                    <div class="iklan-image">
+                        <img src="image/1.jpg" alt="iklan 1">
+                    </div>
+                </a>
+                <a href="#materi2" class="iklan-card">
+                    <div class="iklan-image">
+                        <img src="image/2.jpeg" alt="iklan 2">
+                    </div>
+                </a>
+                <a href="#materi3" class="iklan-card">
+                    <div class="iklan-image">
+                        <img src="image/3.jpeg" alt="iklan 3">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+        <!-- POPUP 1 - Robot & Tas Bulat -->
+    <div id="materi2" class="popup-overlay">
+        <div class="popup-box">
+            <h2>Robot & Tas Bulat - Metode Campuran</h2>
+
+            <p><b>Permisalan:</b><br>
+            x = harga satuan Robot<br>
+            y = harga satuan Tas Bulat</p>
+
+            <p><b>Permodelan:</b><br>
+            2x + y = 165.000<br>
+            x + 2y = 195.000</p>
+
+            <p><b>• Metode Eliminasi:</b><br>
+            2x + y = 165.000 &nbsp;&nbsp; |x2<br>
+            x + 2y = 195.000 &nbsp;&nbsp; |x1<br>
+            ________________<br>
+            4x + 2y = 330.000<br>
+            x + 2y = 195.000<br>
+            ________________&nbsp;&nbsp; _<br>
+            3x = 135.000<br>
+            x = 45.000</p>
+
+            <p><b>• Metode Substitusi:</b><br>
+            x + 2y = 195.000<br>
+            45.000 + 2y = 195.000<br>
+            2y = 150.000<br>
+            y = 75.000</p>
+
+            <p><b>Kesimpulan:</b> HP = {(45.000, 75.000)}. Jadi, harga 1 Robot = <b>Rp 45.000</b> dan harga 1 Tas Bulat = <b>Rp 75.000</b>. Terbukti: 2(45.000) + 75.000 = 165.000.</p>
+
+            <a href="#iklan" class="popup-btn-tutup">Tutup</a>
+        </div>
+    </div>
+
+    <!-- POPUP 2 - Hiasan Dinding & Tas Bulat -->
+    <div id="materi3" class="popup-overlay">
+        <div class="popup-box">
+            <h2>Hiasan Dinding & Tas Bulat - Metode Campuran</h2>
+
+            <p><b>Permisalan:</b><br>
+            x = harga satuan Hiasan Dinding<br>
+            y = harga satuan Tas Bulat</p>
+
+            <p><b>Permodelan:</b><br>
+            3x + y = 210.000<br>
+            x + 2y = 195.000</p>
+
+            <p><b>• Metode Eliminasi:</b><br>
+            3x + y = 210.000 &nbsp;&nbsp; |x2<br>
+            x + 2y = 195.000 &nbsp;&nbsp; |x1<br>
+            ________________<br>
+            6x + 2y = 420.000<br>
+            x + 2y = 195.000<br>
+            ________________&nbsp;&nbsp; _<br>
+            5x = 225.000<br>
+            x = 45.000</p>
+
+            <p><b>• Metode Substitusi:</b><br>
+            x + 2y = 195.000<br>
+            45.000 + 2y = 195.000<br>
+            2y = 150.000<br>
+            y = 75.000</p>
+
+            <p><b>Kesimpulan:</b> HP = {(45.000, 75.000)}. Jadi, harga 1 Hiasan Dinding = <b>Rp 45.000</b> dan harga 1 Tas Bulat = <b>Rp 75.000</b>. Terbukti: 3(45.000) + 75.000 = 210.000.</p>
+
+            <a href="#iklan" class="popup-btn-tutup">Tutup</a>
+        </div>
+    </div>
+
+    <!-- POPUP 3 - Jam & Robot Daur Ulang -->
+    <div id="materi1" class="popup-overlay">
+        <div class="popup-box">
+            <h2>Jam & Robot Daur Ulang - Metode Campuran</h2>
+
+            <p><b>Permisalan:</b><br>
+            x = harga satuan Click Clock Jam Dinding<br>
+            y = harga satuan Robot Lampu Hias</p>
+
+            <p><b>Permodelan:</b><br>
+            2x + y = 145.000<br>
+            x + y = 95.000</p>
+
+            <p><b>• Metode Eliminasi:</b><br>
+            2x + y = 145.000<br>
+            x + y = 95.000<br>
+            ________________&nbsp;&nbsp; _<br>
+            x = 145.000 - 95.000<br>
+            x = 50.000</p>
+
+            <p><b>• Metode Substitusi:</b><br>
+            x + y = 95.000<br>
+            50.000 + y = 95.000<br>
+            y = 45.000</p>
+
+            <p><b>Kesimpulan:</b> HP = {(50.000, 45.000)}. Jadi, harga 1 Jam Dinding = <b>Rp 50.000</b> dan harga 1 Robot = <b>Rp 45.000</b>. Terbukti: 50.000 + 45.000 = 95.000.</p>
+
+            <a href="#iklan" class="popup-btn-tutup">Tutup</a>
+        </div>
+    </div>
+
+        <section class="back">
+            <div class="main-back">
+                <a href="index.html" class="btn-back">← Kembali ke Halaman Utama</a>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="image/logo alpha.png" alt="Alpha Logo">
+                        <span>Alpha</span>
+                    </div>
+                    <p>Mengubah limbah menjadi karya seni yang bermakna untuk masa depan yang lebih berkelanjutan.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html#beranda">Beranda</a></li>
+                        <li><a href="index.html#kolaborasi">Kolaborasi</a></li>
+                        <li><a href="index.html#produk">Produk</a></li>
+                        <li><a href="index.html#tim">Tim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li>Email: alphaproject@gmail.com</li>
+                        <li>Telepon: +62 851 2683 7352</li>
+                        <li>Semarang, Jawa Tengah</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div>
+                        <a class="link" href="https://www.instagram.com/mumetszzzz" target="_blank" aria-label="Instagram">Instagram</a>
+                        <a class="link" href="mailto:hakim.p26088@satamail.my.id" target="_blank" aria-label="Facebook">Email</a>
+                        <a class="link" href="https://www.tiktok.com/@mumetszzz1" target="_blank" aria-label="Tiktok">Tiktok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alpha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
