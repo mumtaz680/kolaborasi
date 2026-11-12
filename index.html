@@ -151,23 +151,26 @@
                         <p>Semarang, Jawa Tengah<br>Indonesia</p>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Nama Lengkap" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subjek">
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Pesan" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit">Kirim Pesan</button>
-                    </form>
+            <div class="contact-form">
+              <form action="https://formsubmit.co/hakim.p26088@satamail.my.id" method="POST">
+                <div class="form-group">
+                  <input type="text" name="nama" placeholder="Nama Lengkap" required>
                 </div>
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subjek" placeholder="Subjek">
+                </div>
+                <div class="form-group">
+                  <textarea name="pesan" placeholder="Pesan" rows="5" required></textarea>
+                </div>
+            
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Ada Pesan Baru dari Website!">
+            
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+              </form>
             </div>
         </div>
     </section>
